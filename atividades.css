@@ -1,0 +1,101 @@
+/*descrição das atividades*/
+.caixa{
+    background-color:darkgrey;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2px;
+}
+.cabecalho{
+    width: 98.5%;
+    height: 16.67%;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:5px;
+    padding: 5px;
+    flex: 1 1 1;
+}
+.navegador{
+    width: 98.5%;
+    height: 16.67%;
+    background-color: pink;
+    display:flex;
+    margin:5px;
+    padding: 5px;
+}
+nav ul{
+    display: flex; 
+    justify-content: center;
+    list-style: none; 
+    padding: 5px; 
+    margin: 5px;
+    text-align: center;
+}
+nav > ul > li{
+    margin-right: 20px;
+}
+nav ul ul{
+    display: none;
+    position: absolute; 
+    background-color: salmon;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+nav ul li:hover > ul {
+    display: block; 
+}
+nav ul ul li {
+    margin: 0; 
+    padding: 10px;
+}
+nav a {
+    text-decoration: none; 
+    color: #000; 
+    padding: 10px 15px; 
+    display: block; 
+}
+nav a:hover {
+    background-color: #e0e0e0; 
+}
+
+.escopo{
+    width: 98.5%;
+    height: 67%;
+    margin:5px;
+    padding: 5px;
+    background-color:plum;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: auto auto;
+}
+.rodape{
+    width: 98.5%;
+    height: 36%;
+    margin:5px;
+    padding: 5px;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+.ideias{
+    background-color: white;
+    margin: 20px;
+    padding: 2px;
+    width: 50%;
+    height: 95%;
+}
+.doarmaterial{
+    margin: 20px;
+    height: 95%;
+}

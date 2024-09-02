@@ -1,0 +1,132 @@
+/*pagina inicial*/
+.container{
+    background-color:darkgrey;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+}
+
+.header{
+    width: 100%;
+    height: 16.67%;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+.navegador{
+    width: 99.2%;
+    height: 16.67%;
+    background-color: pink;
+    display:flex;
+    padding:5px;
+}
+nav ul{
+    display: flex; 
+    justify-content: center;
+    list-style: none; 
+    padding: 5px; 
+    margin: 5px;
+    text-align: center;
+}
+nav > ul > li{
+    margin-right: 20px;
+}
+nav ul ul{
+    display: none;
+    position: absolute; 
+    background-color: salmon;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+nav ul li:hover > ul {
+    display: block; 
+}
+nav ul ul li {
+    margin: 0; 
+    padding: 10px;
+}
+nav a {
+    text-decoration: none; 
+    color: #000; 
+    padding: 10px 15px; 
+    display: block; 
+}
+nav a:hover {
+    background-color: #e0e0e0; 
+}
+.corpo{
+    width: 100%;
+    height: 66.67%;
+    background-color:plum;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: auto auto;
+}
+.lat-esq{
+    width: 60%;
+    height: 66.67;
+    background-color:plum;
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 150px;
+}
+.info{
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    text-align: justify;
+}
+.contato{
+    background-color: greenyellow;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;    
+    justify-content: center;
+}
+
+.lat-dir{
+    width: 50%;
+    height: 64%;
+    background-color:plum;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    height: 36%;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.sobre{
+    background-color: white;
+    margin: 20px;
+    padding: 2px;
+    width: 50%;
+    height: 95%;
+}
+.prof{
+    margin: 20px;
+    height: 95%;
+}
